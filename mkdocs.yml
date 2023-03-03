@@ -1,8 +1,9 @@
-site_name: Leading Edge DC-3 v2
+site_name: Leading Edge Simulations<br/>DC-3 v2
 site_url: https://airfightergr.github.io/les_dc3_docs/
 
 nav:
-  - Welcome: index.md
+  - Welcome:
+    - Overview: index.md
   - 'Select Aircraft':
     - DC-3 Classic:
         - Overview: docs/classic/classic.md
