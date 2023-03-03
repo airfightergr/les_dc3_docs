@@ -6,12 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://airfightergr.github.io/les_dc3_docs/acf_classic/</loc>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/classic/</loc>
          <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://airfightergr.github.io/les_dc3_docs/acf_modern/</loc>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/radios/</loc>
+         <lastmod>2023-03-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/modern/</loc>
          <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>

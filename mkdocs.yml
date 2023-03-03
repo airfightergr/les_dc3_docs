@@ -2,10 +2,12 @@ site_name: Leading Edge DC-3 v2
 site_url: https://airfightergr.github.io/les_dc3_docs/
 
 nav:
-  - index.md
-  - Aircraft Types:
-      - Classic Aircraft: acf_classic.md
-      - Modern Aircraft: acf_modern.md
-
+  - Welcome: index.md
+  - 'Select Aircraft':
+    - DC-3 Classic:
+        - Overview: docs/classic/classic.md
+        - Radios: docs/classic/radios.md
+    - DC-3 Modern:
+        - Overview: docs/modern/modern.md
 
 theme: readthedocs
