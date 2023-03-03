@@ -1,5 +1,5 @@
 site_name: Leading Edge DC-3 v2
-
+site_url: https://airfightergr.github.io/les_dc3_docs/
 
 nav:
   - index.md
