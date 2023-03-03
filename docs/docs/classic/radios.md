@@ -1,4 +1,11 @@
 # Radios
+
+## Master Switch
+The Master Radio switch is located on the cockpit ceiling, on the left side of the radio stack, and controls the power to the radio stack.
+
+![image](master_radio.jpg)
+
+## Radio Stack
 The radio stack is located above pilots heads, on the cockpit ceiling.
 ![image](radio_stack.png)
 
