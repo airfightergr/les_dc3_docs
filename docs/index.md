@@ -44,7 +44,7 @@ Systems not fully developed, but will be developed farther, throughout DC-3 v2 r
 
 ### All aircraft
 - **Hydraulic system:** All indication are correct, but until now X-Plane does not allow deep interaction with the system. 
-- **Anti ice system:** All systems are included, but not fully simulated, yet.
+- **Anti-ice/De-ice systems:** All systems are included, but not fully simulated, yet.
 
 ### Classic
 - **Sperry Autopilot:** The basic operations is included, except the 'heading mode'.
