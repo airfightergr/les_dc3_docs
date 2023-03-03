@@ -2,6 +2,7 @@ site_name: Leading Edge DC-3 v2
 
 
 nav:
+  - index.md
   - Aircraft Types:
       - Classic Aircraft: acf_classic.md
       - Modern Aircraft: acf_modern.md
