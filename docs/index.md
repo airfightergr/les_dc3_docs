@@ -1,6 +1,4 @@
-# Overview
-
-## Introduction
+# Introduction
 
 Welcome to Leading Edge Simulations Douglas DC-3, version 2.0. This version of the DC-3 is a complete rework of the previous version.
 

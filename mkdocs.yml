@@ -4,13 +4,19 @@ site_url: https://airfightergr.github.io/les_dc3_docs/
 nav:
   - Welcome:
     - Overview: index.md
+    - User Interface: gui.md
+    - Support: support.md
   - 'Select Aircraft':
     - DC-3 Classic:
-        - Overview: docs/classic/classic.md
+        - Introduction: docs/classic/classic.md
         - Pilot's Panel: docs/classic/plt_panel.md
         - Copilot's Panel: docs/classic/cplt_panel.md
+        - Center Panel: docs/classic/center_panel.md
         - Overhead: docs/classic/overhead.md
         - Radios: docs/classic/radios.md
+        - Automatic Pilot: docs/classic/autopilot.md
 
 
 theme: readthedocs
+markdown_extensions:
+  - admonition

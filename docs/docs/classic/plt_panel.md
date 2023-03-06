@@ -1,7 +1,5 @@
 # Pilot's Panel
 
->**_NOTE_** There are a lot different DC-3 panel layouts. We based ours on one of the earliest specimens. The operation, despite the differences remains the same.
-
 ## Pilot's "Six- Pack"
 ![Pilot's Six Pack](plt_six_pack.jpg)
 

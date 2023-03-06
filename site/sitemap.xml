@@ -2,37 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/gui/</loc>
+         <lastmod>2023-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/support/</loc>
+         <lastmod>2023-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/autopilot/</loc>
+         <lastmod>2023-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/center_panel/</loc>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/classic/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/cplt_panel/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/overhead/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/plt_panel/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/radios/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/modern/</loc>
-         <lastmod>2023-03-04</lastmod>
+         <lastmod>2023-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

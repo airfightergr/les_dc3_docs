@@ -13,7 +13,9 @@ Two overhead panels are located on the ceiling of the cockpit, and towards the f
 2. **INVERTER**: Provides AC power to instruments (RMIs).
 3. **LEFT GEN**: Connects the left engine DC Generator to DC BUS.
 4. **RIGHT GEN**: Connects the right engine DC Generator to DC BUS.
->**_NOTE:_** On the generator circuitry, a cutoff relay is installed. This relay prevents the generator to be connected on the DC Bus, if the output voltage is below 17VDC, despite switch position.
+
+    !!! note "NOTE"
+        On the generator circuitry, a cutoff relay is installed. This relay prevents the generator to be connected on the DC Bus, if the output voltage is below 17VDC, despite switch position.
 
 
 5. **LANDING LIGHT**: Controls the left landing light, located on the leading edge of the left wing.
@@ -50,7 +52,9 @@ Includes the Magnetos Control Panel.
 4. **R ENG START**: Engages the right engine starter.
 5. **L ENG PRIMER**: Turn on to prime the left engine. 
 6. **R ENG PRIMER**: Turn on to prime the right engine. 
->**_NOTE:_** You can start the engines, only with the primers on, and fuel boost pumps off.
+
+    !!! note "NOTE"
+        You can start the engines, only with the primers on, and fuel boost pumps off.
 
 7. **L FUEL BOOST**: Controls the left fuel boost.
 8. **R FUEL BOOST**: Controls the right fuel boost.
@@ -58,13 +62,17 @@ Includes the Magnetos Control Panel.
 10. **SURFACE BOOTS**: Controls wings' surfaces boots operation.
 11. **WSHLD DEICE**: Removes ice from cockpit windshields.
 12. **PROPS ANTI-ICE** Controls the engines' and propellers' anti-icing.
->**_NOTE:_** DE-ICE and ANTI-ICE systems are not fully simulated, but we provide a basic operation for protection. The complete simulation will be released in a future update.
+
+    !!! note "NOTE"
+        DE-ICE and ANTI-ICE systems are not fully simulated, but we provide a basic operation for protection. The complete simulation will be released in a future update.
 
 13. **DOORS**: Illuminates if a door is open. Rotate to adjust brightness.
 14. Right Overhead panel light.
 15. **RIGHT AMPS/VOLTS METER**: Show the total load (AMPS) on the right generator. Press the button at the left corner to display VOLTS.
 16. **LEFT AMPS/VOLTS METER**: Show the total load (AMPS) on the left generator. Press the button at the left corner to display VOLTS.
->**_NOTE:_** Those indicators show only generators' amps and volts, and not the load on the DC Bus.
+
+    !!! note "NOTE"
+        Those indicators show only generators' amps and volts, and not the load on the DC Bus.
 
 17. **FEATHER button**: Press the button to feather the right propeller. The button will stay in, while the propeller is feathered.
     When the propeller reaches the feathered position, the button will pop out. To un-feather the propeller, press and hold the button.
