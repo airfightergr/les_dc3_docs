@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/gui/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/liveries/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>User Interface - Leading Edge Simulations<br/>DC-3 v2</title>
+    <title>Liveries Concept - Leading Edge Simulations<br/>DC-3 v2</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "User Interface";
-        var mkdocs_page_input_path = "gui.md";
-        var mkdocs_page_url = "/les_dc3_docs/gui/";
+        var mkdocs_page_name = "Liveries Concept";
+        var mkdocs_page_input_path = "liveries.md";
+        var mkdocs_page_url = "/les_dc3_docs/liveries/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -40,11 +40,17 @@
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="..">Overview</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">User Interface</a>
-    <ul class="current">
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../gui/">User Interface</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../liveries/">Liveries Concept</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Liveries Concept</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#liveries-as-airframes">Liveries as Airframes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#instructions-for-painters">Instructions for Painters</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ini-file-configuration">INI File configuration</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../support/">Support</a>
                   </li>
@@ -105,7 +111,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
           <li>Welcome &raquo;</li>
-      <li>User Interface</li>
+      <li>Liveries Concept</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -114,46 +120,57 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="user-interface">User Interface</h1>
-<p>The user interface is the means for the user to interact with various faces of the flight, and as well as set various options, aircraft loading, etc.</p>
-<p>It is divided in 5 "tabs" or pages.</p>
+                <h1 id="liveries-concept">Liveries Concept</h1>
+<p>We are introducing a new concept about how liveries are handled in our aircraft. The rationale is to honour the aircraft, as the first airliner, which also fought in WWII, but the iconic users, via the liveries.
+To do that, we handle as every livery as a unique airframe. </p>
+<h2 id="liveries-as-airframes">Liveries as Airframes</h2>
+<p>You must think that by selecting a livery to fly, you are also selecting a different airframe. For example, switching from <strong>Buffalo Airways</strong> to <strong>Duggy</strong>, is like climbing on a different aircraft, and not just changing the paint!
+From now on, in this page the word <strong>Airframe</strong> will be used instead of livery. Here are the properties:</p>
+<ol>
+<li>We have implemented a maintenance system that is tracked, per aircraft, per airframe. Each time you fly, the hours are logged to the specific airframe. So the airframe hours and maintenance intervals, are counted per airframe.
+For example, if you fly frequently with one airframe, and then select another one, that you have months to fly with, you'll find the batteries discharged.</li>
+<li>The options, you choose for specific airframe, are stored only for this airframe.</li>
+<li>Persistence (if you select the aircraft to load as was after the last flight), is tracked per airframe.</li>
+</ol>
+<h2 id="instructions-for-painters">Instructions for Painters</h2>
+<p>Those who want to create liveries for DC3, should have a few things in mind. </p>
 <ul>
-<li><strong>AIRFRAME:</strong> Gives the user info about the aircraft, the available liveries, and Credits.</li>
+<li>We will provide you a paintkit, for both Photoshop and Substance Painter.</li>
+<li>Each livery requires a <strong><em>.ini</em></strong> file for data and information to be stored. We will provide you with a file that you can edit it.</li>
+<li>The liveries' <strong><em>.ini</em></strong> files are located in the <strong><em>X-Plane 12/Output/DC3</em></strong> folder.</li>
+<li>The file for your livery should be named exactly as the livery folder. For example is the livery folder is named <strong>United Airlines</strong>, the file should have the name <strong>United Airlines.ini</strong>.</li>
+<li>You should ship your livery with the ini file. We suggest to create a zip with the structure below:</li>
 </ul>
-<p><img alt="Airframe" src="../all_acfs/gui_airframe.jpg" /></p>
-<ul>
-<li><strong>MAINTENANCE:</strong> Provides a picture of aircraft's maintenance condition. More information in the maintenance page. </li>
-</ul>
-<p><img alt="MAINTENANCE" src="../all_acfs/gui_maintenance.jpg" /></p>
-<ul>
-<li><strong>OPTIONS:</strong> Here you can set the various options. Make sure that you press the <strong>SAVE</strong> button after selecting your option to be stored for the next flight.
-The panel state option are 4:</li>
-<li><em>Cold and Dark:</em> The aircraft will load with all systems off.</li>
-<li><em>Powered:</em> All electrical systems will be on.</li>
-<li><em>After Start:</em> All ready to start taxiing. But not forget to do the checks. Always read the checklist!</li>
-<li><em>Persistent:</em> The aircraft will load as you left her, after the last flight. By aware that each livery/airframe keeps track of her own status. Read more at the Liveries Concept page.</li>
-</ul>
-<p><img alt="OPTIONS" src="../all_acfs/gui_options.jpg" /></p>
-<ul>
-<li><strong>LOADING:</strong> Here, on the left side, you can load the aircraft with passengers, cargo, and fuel.
-On the right side, you can monitor the CG, and the weights.</li>
-</ul>
-<div class="admonition danger">
-<p class="admonition-title">WARNING</p>
-<p>Fuel loading is not possible with the engines running!</p>
+<pre><code>zip file
+    |
+     - Aircraft/X-Aviation/DC3/liveries/ your livery folder here
+    |
+     - Output/DC3/ your ini file here  
+
+</code></pre>
+<div class="admonition hint">
+<p class="admonition-title">INFO</p>
+<p>If you load DC-3 in X-Plane, with your livery folder in place, and without creating or adding the required <strong><em>.ini</em></strong> file, will create one for you, replicated the default's livery one. Then you can edit this file.</p>
 </div>
-<p><img alt="LOADING" src="../all_acfs/gui_loading.jpg" /></p>
+<h2 id="ini-file-configuration">INI File configuration</h2>
+<p>The <strong><em>.ini</em></strong> file has 4 sections</p>
+<ol>
+<li><strong>Data:</strong></li>
+</ol>
+<pre><code>[DATA]
+TAIL_NUMBER=VH-LES
+DESCRIPTION=Released on April 1, 2012
+OPERATOR=Leading Edge Simulations Modern
+</code></pre>
 <ul>
-<li><strong>CHECKLIST:</strong> A complete checklist, adapted for our aircraft. </li>
+<li>TAIL_NUMBER: Put the tail number of your livery. We are using it to set the respective X-Plane dataref.</li>
 </ul>
-<p>Click the small arrow on the left, and check the items. When a checklist is completed, the color of the specific checklist will turn from red to green.</p>
-<p><img alt="CHECKLIST" src="../all_acfs/gui_checklist.jpg" /></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../liveries/" class="btn btn-neutral float-right" title="Liveries Concept">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../gui/" class="btn btn-neutral float-left" title="User Interface"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../support/" class="btn btn-neutral float-right" title="Support">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -176,10 +193,10 @@ On the right side, you can monitor the CG, and the weights.</li>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../gui/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../liveries/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../support/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

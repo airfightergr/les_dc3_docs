@@ -32,11 +32,7 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href="../../.." class="icon icon-home"> Leading Edge Simulations<br/>DC-3 v2
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
+        </a>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
@@ -45,6 +41,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../..">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../../gui/">User Interface</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../liveries/">Liveries Concept</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../../support/">Support</a>
                   </li>
@@ -62,6 +60,8 @@
                 <li class="toctree-l2"><a class="reference internal" href="../center_panel/">Center Panel</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../overhead/">Overhead</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../pedestal/">Pedestal</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../radios/">Radios</a>
                 </li>
@@ -88,6 +88,24 @@
         </ul>
     </li>
     </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">DC-3 Modern</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modern/modern/">Introduction</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Common Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../common/hydraulics/">Hydraulics</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Misc</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../misc/misc/">Misc</a>
                 </li>
     </ul>
                   </li>
@@ -195,7 +213,7 @@ to the one side of the piston <strong>K</strong>, moving the connected ailerons.
 <p>The operation is the same as with the <strong>Simulated Sperry A-3A Automatic Pilot</strong>, as described above. There are though some differences. Because all the actions are purely mechanical, they are not filtered through any logic.
 In case of engaging the autopilot in an unbalance position (big difference between follow-up index and respective bank or roll index), a violent movement might occur. To avoid this, make sure that all indexes are aligned.</p>
 <p>Also, the <strong>heading mode</strong> is not available yet. In this mode, as described above, when the autopilot engagement occur with the rudder follow-up card with the DG card aligned, the aircraft will remain at the current heading.
-The <strong>AIL</strong> knob is disabled, and the <strong>RUD</strong> knob is used to correct heading by a few degrees, <em>by moving slightly the rudder</em>.</p>
+The <strong>AIL</strong> knob is disabled, and the <strong>RUD</strong> knob is used to correct heading by few degrees, <em>by moving slightly the rudder</em>.</p>
 <div class="admonition note">
 <p class="admonition-title">DEVELOPER'S NOTE</p>
 <p>As you might have noticed, the autopilot is capable to provide some attitude hold capabilities, but nothing much more. Speaking with a few pilots who have flown aircraft with this autopilot, the common ground was that barely ever used,
@@ -206,6 +224,7 @@ since DC-3 is quite stable in flight, and in calm weather, it is easy to hold th
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../radios/" class="btn btn-neutral float-left" title="Radios"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../modern/modern/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -231,12 +250,13 @@ since DC-3 is quite stable in flight, and in calm weather, it is easy to hold th
       <span><a href="../radios/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
+      <span><a href="../../modern/modern/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
   </span>
 </div>
     <script>var base_url = '../../..';</script>
     <script src="../../../js/theme_extra.js" defer></script>
     <script src="../../../js/theme.js" defer></script>
-      <script src="../../../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
