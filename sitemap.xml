@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/common/other/</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/misc/misc/</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
