@@ -27,7 +27,7 @@
 1. **Clock**: Shows local time. You can use the lower knob to change the time, and the upper knob to change it fast. A bit of... magic, right?
 2. **Radar Altimeter**: Shows the aircraft's altitude above the ground. Has 2 scales. The first one is from 0 to 500 ft, and the second from 0 to 5000 ft. Use the knob to toggle between the two. When the instrument is in the second scale, a set of 0 will appear to display the correct altitudes.
 3. **FLAPS**: Indicates the position of the wing flaps.
-4. **Slaved Gyro Magnetic Compass**: TODO***********.
+4. **Slaved Gyro Magnetic Compass**: Indicates aircraft's magnetic heading, without compass errors.
 5. **Airspeed Indicator**: Backup airspeed indicator in knots.
 6. **Baro Table**: Conversion table between inHg and hPa. Click it to get a pop out window.
 

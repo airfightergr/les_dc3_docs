@@ -14,7 +14,8 @@ The needs for a military transport aircraft were huge, and with DC-3 fitting the
 It was based on DC-3 with few changes needed for the operations in the military, most notably the reinforced floor that allowed for higher gross weight, 
 and the dual cargo doors. A total of around 10,000 C-47 aircraft (and variations) were constructed. 
 Many C-47s, after WWII, became available for civilian use, and even today, there are many DC-3s and C-47 in use! 
-Later, in 1990, another variation was developed by Basler Turbo Conversions, retrofitting P&W PT-6 turboprop engines, and airframe modifications, designated as BT-67. 
+Later, in 1990, another variation was developed by Basler Turbo Conversions, retrofitting P&W PT-6 turboprop engines, and airframe modifications, designated as BT-67.
+*(source: Wikipedia)*
 
 ## Our Aircraft
 

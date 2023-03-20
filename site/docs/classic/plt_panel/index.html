@@ -32,11 +32,7 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href="../../.." class="icon icon-home"> Leading Edge Simulations<br/>DC-3 v2
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
+        </a>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
@@ -45,6 +41,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../..">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../../gui/">User Interface</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../liveries/">Liveries Concept</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../../support/">Support</a>
                   </li>
@@ -69,11 +67,29 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../center_panel/">Center Panel</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../overhead/">Overhead</a>
+                <li class="toctree-l2"><a class="reference internal" href="../pedestal/">Pedestal</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../radios/">Radios</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../autopilot/">Automatic Pilot</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">DC-3 Modern</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../modern/modern/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../modern/avionics/">Radios & Avionics</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Common Systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../common/overhead/">Overhead</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../common/hydraulics/">Hydraulics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../common/other/">Other Systems</a>
                 </li>
     </ul>
                   </li>
@@ -133,7 +149,7 @@
 <li><strong>Clock</strong>: Shows local time. You can use the lower knob to change the time, and the upper knob to change it fast. A bit of... magic, right?</li>
 <li><strong>Radar Altimeter</strong>: Shows the aircraft's altitude above the ground. Has 2 scales. The first one is from 0 to 500 ft, and the second from 0 to 5000 ft. Use the knob to toggle between the two. When the instrument is in the second scale, a set of 0 will appear to display the correct altitudes.</li>
 <li><strong>FLAPS</strong>: Indicates the position of the wing flaps.</li>
-<li><strong>Slaved Gyro Magnetic Compass</strong>: TODO<strong><em>*</em></strong>****.</li>
+<li><strong>Slaved Gyro Magnetic Compass</strong>: Indicates aircraft's magnetic heading, without compass errors.</li>
 <li><strong>Airspeed Indicator</strong>: Backup airspeed indicator in knots.</li>
 <li><strong>Baro Table</strong>: Conversion table between inHg and hPa. Click it to get a pop out window.</li>
 </ol>
@@ -175,7 +191,6 @@
     <script>var base_url = '../../..';</script>
     <script src="../../../js/theme_extra.js" defer></script>
     <script src="../../../js/theme.js" defer></script>
-      <script src="../../../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);

@@ -21,5 +21,5 @@ On the lower center panel are the main engine instruments.
 
 1. **Fire Test**: Press the button to test the fire alarm system, lights (#2) and bell ring. Requires at least battery power.
 2. **Fire Alarm Lights**: Indicate if a fire is sense in one of the engines. Rotate the light to adjust brightness.
-3. **Sperry A-3A Automatic pilot**: Read detailed description and operation on the Autopilot page.
+3. **Sperry A-3A Automatic pilot**: Read detailed description and operation on the [Automatic pilot](autopilot.md) page.
 4. **Oil Pressure**: Indicates the oil pressure for the autopilot.

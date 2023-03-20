@@ -76,7 +76,7 @@ The operation is the same as with the **Simulated Sperry A-3A Automatic Pilot**,
 In case of engaging the autopilot in an unbalance position (big difference between follow-up index and respective bank or roll index), a violent movement might occur. To avoid this, make sure that all indexes are aligned.
 
 Also, the **heading mode** is not available yet. In this mode, as described above, when the autopilot engagement occur with the rudder follow-up card with the DG card aligned, the aircraft will remain at the current heading.
-The **AIL** knob is disabled, and the **RUD** knob is used to correct heading by a few degrees, *by moving slightly the rudder*.
+The **AIL** knob is disabled, and the **RUD** knob is used to correct heading by few degrees, *by moving slightly the rudder*.
 
 !!! note "DEVELOPER'S NOTE"
     As you might have noticed, the autopilot is capable to provide some attitude hold capabilities, but nothing much more. Speaking with a few pilots who have flown aircraft with this autopilot, the common ground was that barely ever used,

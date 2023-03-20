@@ -31,6 +31,6 @@ On the right side, you can monitor the CG, and the weights.
 
 - **CHECKLIST:** A complete checklist, adapted for our aircraft. 
 
-Click the small arrow on the left, and check the items. When a checklist is completed, the color of the specific checklist will turn from red to green.
+Click the small arrow on the left to open a checklist, and check the items. When a checklist is completed, the color of the specific checklist will turn from red to green, and the *completed* is added. This allows for a quick overview which checklist is complete and which not.
 
 ![CHECKLIST](./all_acfs/gui_checklist.jpg)

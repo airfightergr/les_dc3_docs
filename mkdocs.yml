@@ -5,6 +5,7 @@ nav:
   - Welcome:
     - Overview: index.md
     - User Interface: gui.md
+    - Liveries Concept: liveries.md
     - Support: support.md
   - 'Select Aircraft':
     - DC-3 Classic:
@@ -12,11 +13,21 @@ nav:
         - Pilot's Panel: docs/classic/plt_panel.md
         - Copilot's Panel: docs/classic/cplt_panel.md
         - Center Panel: docs/classic/center_panel.md
-        - Overhead: docs/classic/overhead.md
+        - Pedestal: docs/classic/pedestal.md
         - Radios: docs/classic/radios.md
         - Automatic Pilot: docs/classic/autopilot.md
+    - DC-3 Modern:
+        - Introduction: docs/modern/modern.md
+        - Radios & Avionics: docs/modern/avionics.md
+    - Common Systems:
+        - Overhead: docs/common/overhead.md
+        - Hydraulics: docs/common/hydraulics.md
+        - Other Systems: docs/common/other.md
 
 
 theme: readthedocs
 markdown_extensions:
   - admonition
+
+plugins:
+  - mkdocs-video
