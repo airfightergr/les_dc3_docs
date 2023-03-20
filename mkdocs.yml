@@ -18,6 +18,7 @@ nav:
         - Automatic Pilot: docs/classic/autopilot.md
     - DC-3 Modern:
         - Introduction: docs/modern/modern.md
+        - Pilot's Panel: docs/modern/pilot.md
         - Radios & Avionics: docs/modern/avionics.md
     - Common Systems:
         - Overhead: docs/common/overhead.md

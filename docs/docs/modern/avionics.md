@@ -3,7 +3,7 @@
 ## Bendix/King KAP-140 Autopilot
 ![KAP-140](kap140.jpg)
 
-We have installed the KAP-140 Two Axis with Altitude Preselect Autopilot System, coupled with the KI-525A HSI.
+The aircraft is equipped with a KAP-140 Two Axis with Altitude Preselect Autopilot System, coupled with the KI-525A HSI.
 All operations described in the official manual are simulated, and we suggest for the better use, to download the manual from Honeywell site, by clicking the link below.
 
 [KAP-140 Official Manual](https://www.bendixking.com/content/dam/bendixking/en/documents/document-lists/downloads-and-manuals/006-18034-0000-KAP-140-Pilots-Guide.pdf)
@@ -12,7 +12,8 @@ A few things to have in mind:
 
 1. The autopilot co-operates with the HSI, and you should read in the manual about this arrangement. There are other arrangements that operate differently.
 2. The autopilot has its own barometer, and set separately from the other altimeters. The barometer is initialized at 29.92 inHg.
-3. 
+Set the barometric pressure as with the other altimeters, so the aircraft will level off at the same altitude as set in the autopilot.
+Press the BARO button to enter baro mode (times out after 3 seconds). To switch between inHg and hPa, while in baro mode, press and hold the BARO button for 2 seconds.
 
 ## X-Plane's GNS530
 ![GNS530W](GNS530.jpg)
