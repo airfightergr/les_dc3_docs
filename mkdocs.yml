@@ -4,6 +4,7 @@ site_url: https://airfightergr.github.io/les_dc3_docs/
 nav:
   - Welcome:
     - Overview: index.md
+    - Aircraft Characteristics: characteristics.md
     - User Interface: gui.md
     - Liveries Concept: liveries.md
     - Support: support.md
@@ -31,6 +32,7 @@ nav:
 theme: readthedocs
 markdown_extensions:
   - admonition
+  - tables
 
 plugins:
   - mkdocs-video
