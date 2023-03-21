@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/docs/misc/misc/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/docs/modern/pilot/" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>New lit effects - Leading Edge Simulations<br/>DC-3 v2</title>
+    <title>Pilot's Panel - Leading Edge Simulations<br/>DC-3 v2</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "New lit effects";
-        var mkdocs_page_input_path = "docs/misc/misc.md";
-        var mkdocs_page_url = "/les_dc3_docs/docs/misc/misc/";
+        var mkdocs_page_name = "Pilot\u0027s Panel";
+        var mkdocs_page_input_path = "docs/modern/pilot.md";
+        var mkdocs_page_url = "/les_dc3_docs/docs/modern/pilot/";
       </script>
     
     <script src="../../../js/jquery-3.6.0.min.js" defer></script>
@@ -48,7 +48,7 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Select Aircraft</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="#">DC-3 Classic</a>
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../../classic/classic/">Introduction</a>
@@ -67,17 +67,19 @@
                 </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="#">DC-3 Modern</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../../modern/modern/">Introduction</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">DC-3 Modern</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../modern/">Introduction</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../modern/pilot/">Pilot's Panel</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Pilot's Panel</a>
+    <ul class="current">
+    </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../modern/copilot/">Copilot's Panel</a>
+                <li class="toctree-l2"><a class="reference internal" href="../copilot/">Copilot's Panel</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../modern/center_panel/">Center Panel</a>
+                <li class="toctree-l2"><a class="reference internal" href="../center_panel/">Center Panel</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../modern/avionics/">Radios & Avionics</a>
+                <li class="toctree-l2"><a class="reference internal" href="../avionics/">Radios & Avionics</a>
                 </li>
     </ul>
                   </li>
@@ -106,7 +108,9 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>New lit effects</li>
+          <li>Select Aircraft &raquo;</li>
+          <li>DC-3 Modern &raquo;</li>
+      <li>Pilot's Panel</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -115,27 +119,48 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="new-lit-effects">New lit effects</h1>
-<p><div class="video-container"><iframe src="../separate_animation_test.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0"allowfullscreen></iframe></div></p>
-<p>here’s the toys in action</p>
-<p>the cessna wing has a gradient alpha window cut out of it in the albedo, the emissive channel has NO alpha.</p>
-<p>i’ve animated LIT level and alpha albedo separately to pitch and roll of the aircraft</p>
-<p>note that the emissive can show through EVEN when the albedo is FULLY gone (0% alpha!) and it creates Z artifacts and cuts away the aircraft door.</p>
-<p>(just like it would at 1% alpha)</p>
-<p>I believe this provides <em>almost</em> a superset of the functionality 11 can do and covers every case anyone seems to have.</p>
-<p>(the only case it can’t do is if you had alpha in the lit AND alpha in the albedo that were different and were somehow trying to use both — i haven’t herad of anyone doing that yet.)</p>
-<h2 id="new-attributes">new attributes</h2>
-<p><code>ATTR_albedo_opacity &lt;low&gt; &lt;high&gt; &lt;dataref&gt;</code></p>
-<p><code>ATTR_albedo_opacity_reset</code></p>
-<p>if these seem exactly like ATTR_light_level it’s because they are - they provide th animation factor for an alpha channel - except the alpha goes in your albedo.
-If you have an alpha animation effect that’s broken, replacing the ATTR_light_level directives with these and moving the alpha to your albedo shuold be a 100% fix.</p>
-<p>new directive for the header</p>
-<p><code>SEPARATE_LIT</code></p>
-<p>If your lit texture is being lost because of the albedo’s clear alpha (and you can’t “Fix it” by using lit channel albedo) put this directive in and go home happy.
-use this for when you have an emissive overlay as a separate mesh directly on top of  another mesh.</p>
+                <h1 id="pilots-panel">Pilot's Panel</h1>
+<p><img alt="Pilot's Panel" src="../pilot_panel.jpg" /></p>
+<ol>
+<li>
+<p><strong>KDI-572:</strong> DME indicator for the pilot. Displays distance, speed, and time for the 2 Nav stations. Operation:
+Use the link for the <a href="https://www.bendixking.com/content/dam/bendixking/en/documents/downloads/006-08420-0003_3-kdi-572-pilot-guide.pdf">Official Documentation</a>.</p>
+<ul>
+<li><strong>OFF:</strong> Turns the unit OFF.</li>
+<li><strong>N1:</strong> Display data for NAV1 tuned station. Display dashes if no station is received.</li>
+<li><strong>HLD:</strong> When we turn the knob from N1 to HLD, tunes DME to the NAV1 radio and displays the NAV1 data. 
+If we change frequency in the NAV1 radio, the DME will still display NAV1 data. The same will happen if we turn the knob from
+N2 to HLD, but for NAV2. When the HLD mode holds NAV1 data, <strong>1H</strong> is displayed, and when holds NAV2 data, <strong>H2</strong> is displayed.</li>
+<li><strong>N2:</strong> Display data for NAV2 tuned station.</li>
+</ul>
+</li>
+<li>
+<p><strong>Suction Pressure Indicator:</strong> Shows the pressure of the vacuum system.</p>
+</li>
+<li><strong>Airspeed Indicator</strong> in knots.</li>
+<li><strong>Attitude Indicator</strong>.</li>
+<li><strong>Altimeter</strong>.</li>
+<li><strong>KA51 Slaving Accessory:</strong> Displays the difference in heading between KI525 HSI displayed heading and actual aircraft heading.
+When the <strong>SLAVE IN</strong> button is <em>IN</em>, the KI525 HSI heading card is slaved. When is <em>OUT</em>, the heading card is in free mode.
+In this mode, use the left and right button to align the heading card.</li>
+<li><strong>KNI-582 RMI:</strong> Displays bearings, #1 needle (yellow) to NAV1 or ADF1 stations, #2 needle (green) to NAV2 or ADF2 stations, depending on the selection of their respective buttons.
+A <strong>HDG</strong> flag is displayed when the heading is invalid.</li>
+<li><strong>KI-525 HSI:</strong> A <strong>HDG</strong> flag is displayed when the heading is invalid. A <strong>NAV</strong> flag is displayed when no signal is received on the NAV1 radio.
+Use the left knob to set the course, and the right knob to set the heading. When the NAV1 is tuned on an ILS frequency, 2 yellow pointers
+over the left and right vertical scales are displayed when glideslope signal is received, to show the vertical situation.</li>
+<li><strong>Course Indicator:</strong> Displays NAV2 lateral and vertical deviations.</li>
+<li><strong>Baro Table:</strong> Conversion table between inHg and hPa. Click to get a pop out window.</li>
+<li><strong>Vertical Speed Indicator (VSI)</strong>.</li>
+<li><strong>Outside Air Temperature</strong>.</li>
+<li><strong>Turn &amp; Slip Indicator</strong>.</li>
+</ol>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../modern/" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../copilot/" class="btn btn-neutral float-right" title="Copilot's Panel">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -157,6 +182,10 @@ use this for when you have an emissive overlay as a separate mesh directly on to
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../modern/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../copilot/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
