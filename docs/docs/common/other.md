@@ -77,7 +77,7 @@ A good use of this position is if you take off (or land) and the ambient tempera
 1. **Audio Panel:** Selects which radios you will listen. On position is down.
 2. **Copilot's Controls:** Same as the Pilot's Controls above, but for the copilot.
 
-## Tablet
+## Tablet (Avitab)
 ![Tablet](avitab.jpg)
 
 You can enable, through the setting menu, to have the tablet on the middle windshield pilar. The tablet is powered via its own battery, which is fully charge every start.
