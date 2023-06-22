@@ -44,6 +44,32 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">User Interface</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#airframe">AIRFRAME</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#maintenance">MAINTENANCE</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#options">OPTIONS</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#automatic-pilot">Automatic Pilot</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#hardware-options">Hardware Options</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#failures">Failures</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ground-services">Ground Services</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#misc-options">Misc Options</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gps-options">GPS Options</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#panel-state-options">Panel State Options</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#loading">LOADING</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#checklist">CHECKLIST</a>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../liveries/">Liveries Concept</a>
@@ -93,6 +119,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../docs/common/other/">Other Systems</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../docs/common/engines_start/">Engines Start</a>
+                </li>
     </ul>
                   </li>
               </ul>
@@ -123,36 +151,66 @@
                 <h1 id="user-interface">User Interface</h1>
 <p>The user interface is the means for the user to interact with various faces of the flight, and as well as set various options, aircraft loading, etc.</p>
 <p>It is divided in 5 "tabs" or pages.</p>
-<ul>
-<li><strong>AIRFRAME:</strong> Gives the user info about the aircraft, the available liveries, and Credits.</li>
-</ul>
+<h2 id="airframe">AIRFRAME</h2>
+<p>Gives the user info about the aircraft, the available liveries, and Credits.</p>
 <p><img alt="Airframe" src="../all_acfs/gui_airframe.jpg" /></p>
-<ul>
-<li><strong>MAINTENANCE:</strong> Provides a picture of aircraft's maintenance condition. More information in the maintenance page. </li>
-</ul>
+<h2 id="maintenance">MAINTENANCE</h2>
+<p>Provides a picture of aircraft's maintenance condition. More information in the maintenance page.</p>
+<div class="admonition hint">
+<p class="admonition-title">INFO</p>
+<p>While the aircraft in operation, ie. engine(s) running, maintenance execute buttons, will not be available.</p>
+</div>
 <p><img alt="MAINTENANCE" src="../all_acfs/gui_maintenance.jpg" /></p>
+<h2 id="options">OPTIONS</h2>
+<p>Here you can set the various options. Make sure that you press the <strong>SAVE</strong> button after selecting your option to be stored for the next flight.</p>
+<h3 id="automatic-pilot">Automatic Pilot</h3>
+<p>For the Classic aircraft, there are 2 option to select. Read more in the <a href="../docs/classic/autopilot/">Automatic Pilot</a>. 
+The Modern aircraft has installed the Bendix/King KAP-140, with altitude preselect.</p>
+<h3 id="hardware-options">Hardware Options</h3>
+<p>To help you with the taxi, there are 2 option to select.</p>
 <ul>
-<li><strong>OPTIONS:</strong> Here you can set the various options. Make sure that you press the <strong>SAVE</strong> button after selecting your option to be stored for the next flight.
-The panel state option are 4:</li>
+<li>If you don't own 2 throttles, you can select the first option, and set the sensitivity as you like. This option reads your throttle position and depending on your rudder input, adjust the throttles. For example, to turn left, the left engine's throttles is retracted and the right engine's throttle is advanced.</li>
+<li>If you don't own rudder pedal with toe braking, you can select the second option, and using the rudder, differential brakes will be applied. At very low speeds, you might need to add a little power, while turning. </li>
+</ul>
+<h3 id="failures">Failures</h3>
+<p>While the aircraft has build in failures in case you don't manipulate the aircraft with the proper care, you can also select random failures provided by X-Plane. The Mean Time Between Failures (MBTF) is based on aircraft's maintenance status. </p>
+<h3 id="ground-services">Ground Services</h3>
+<p>You can set chocks and connect the GPU. If you connect the GPU, also chocks are set automatically. Disconnecting the GPU, <strong>will not</strong> remove the chocks. Also chocks will be automatically installed, if you load the aircraft in any state, except <strong>After Start</strong>.</p>
+<h3 id="misc-options">Misc Options</h3>
+<p>Selecting the <strong>Show Trim Pop Ups</strong>, will display, on the left lower corner of you screen, a pop up with the trim settings for pitch, roll, and yaw, as well the tail wheel lock status.
+If you select the <strong>Show Tablet</strong> option, a tablet with the Avitab will be shown. Requires the <a href="https://github.com/fpw/avitab/releases">Avitab plugin</a>.</p>
+<h3 id="gps-options">GPS Options</h3>
+<p>The modern aircraft comes with the X-Plane's G530 as standard. RXP GNS530 is supported, and you must activate through RXP's menu.</p>
+<p>The classic aircraft offers 3 GPS options.</p>
+<ul>
+<li><em>GNS400:</em> This is based on X-Plane's G430, but does not have the controls for COM1/NAV1.</li>
+<li><em>RealityXP GNS400</em></li>
+<li><em>RealityXP GTN650</em></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">INFO</p>
+<p>GPS's for the Classic aircraft, are only for advisory purposes. They are not connected in any way with aircraft's automatic pilot or navigation capabilities.</p>
+</div>
+<h3 id="panel-state-options">Panel State Options</h3>
+<ul>
 <li><em>Cold and Dark:</em> The aircraft will load with all systems off.</li>
 <li><em>Powered:</em> All electrical systems will be on.</li>
 <li><em>After Start:</em> All ready to start taxiing. But not forget to do the checks. Always read the checklist!</li>
 <li><em>Persistent:</em> The aircraft will load as you left her, after the last flight. By aware that each livery/airframe keeps track of her own status. Read more at the Liveries Concept page.</li>
 </ul>
 <p><img alt="OPTIONS" src="../all_acfs/gui_options.jpg" /></p>
-<ul>
-<li><strong>LOADING:</strong> Here, on the left side, you can load the aircraft with passengers, cargo, and fuel.
-On the right side, you can monitor the CG, and the weights.</li>
-</ul>
+<h2 id="loading">LOADING</h2>
+<p>Here, on the left side, you can load the aircraft with passengers, cargo, and fuel.
+On the right side, you can monitor the CG, and the weights.</p>
 <div class="admonition danger">
 <p class="admonition-title">WARNING</p>
-<p>Fuel loading is not possible with the engines running!</p>
+<p>Fuel loading is not possible with the engines running, if you are in flight mode in FS Economy!</p>
 </div>
 <p><img alt="LOADING" src="../all_acfs/gui_loading.jpg" /></p>
-<ul>
-<li><strong>CHECKLIST:</strong> A complete checklist, adapted for our aircraft. </li>
-</ul>
+<h2 id="checklist">CHECKLIST</h2>
+<p>A complete checklist, adapted for our aircraft. </p>
 <p>Click the small arrow on the left to open a checklist, and check the items. When a checklist is completed, the color of the specific checklist will turn from red to green, and the <em>completed</em> is added. This allows for a quick overview which checklist is complete and which not.</p>
+<p>The <strong>RESET ALL CHECKLISTS</strong> on the top will reset all checklist, and a <strong>RESET CHECKLIST</strong> button to reset each checklist individually. </p>
 <p><img alt="CHECKLIST" src="../all_acfs/gui_checklist.jpg" /></p>
               
             </div>

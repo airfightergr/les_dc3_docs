@@ -2,107 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/characteristics/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/gui/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/liveries/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/support/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/autopilot/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/center_panel/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/classic/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/cplt_panel/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/pedestal/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/plt_panel/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/classic/radios/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://airfightergr.github.io/les_dc3_docs/docs/common/engines_start/</loc>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/common/hydraulics/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/common/other/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/common/overhead/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/misc/misc/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/avionics/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/center_panel/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/copilot/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/modern/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://airfightergr.github.io/les_dc3_docs/docs/modern/pilot/</loc>
-         <lastmod>2023-03-27</lastmod>
+         <lastmod>2023-06-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
