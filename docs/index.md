@@ -8,14 +8,13 @@ Welcome to Leading Edge Simulations Douglas DC-3, version 2.0. This version of t
 
 This DC-3 product package includes 2 different variations. 
 
-The first, "Classic", is based on the early production DC-3 layouts, from late 1930's to mid 1940's era.
+The first, ["Classic"](docs/classic/classic.md), is based on the early production DC-3 layouts, from late 1930's to mid 1940's era.
 
-The second, "Modern", is based on aircraft that have been retrofitted with more modern instruments and avionics.
+The second, ["Modern"](docs/modern/modern.md), is based on aircraft that have been retrofitted with more modern instruments and avionics.
 
 ## Features List
 
 - Fully redone 3D model, with PBR materials, and 4K textures.
-- Compatible with experimental flight model.
 - Fully developed custom systems. Some highlights:
     - Electric system: Battery loses capacity when the aircraft is not flown. Generators' output is temperature dependent. Relays will not connect generators (even with switches on), if the output voltage is not above a certain voltage. Voltage output matches real aircraft's rpm-voltage relationship.
     - Automatic Pilot: There are 2 options, a simplified version that uses X-Plane commands to simulate the Sperry A-3 Automatic pilot, and a custom one, simulates the A-3 operation.
@@ -43,12 +42,15 @@ Systems not fully developed, but will be developed farther, throughout DC-3 v2 r
 ### All aircraft
 - **Hydraulic system:** All indication are correct, but until now X-Plane does not allow deep interaction with the system. 
 - **Anti-ice/De-ice systems:** All systems are included, but not fully simulated, yet.
+- **Hardware Support:** Currently we support the basic hardware, joystick/yoke, throttle, mouse, and keyboard. We are planning to add support to more specific hardware options after release, that will allow more realistic procedures.
 
 ### Classic
 - **Sperry Autopilot:** The basic operations is included, except the 'heading mode'.
 
-### Modern
+[//]: # ()
+[//]: # (### Modern)
 
-## Purchase
-You can purchase this aircraft at [X-Aviation store](https://www.x-aviation.com/catalog/product_info.php/douglas-p-84).
+[//]: # (## Purchase)
+
+[//]: # (You can purchase this aircraft at [X-Aviation store]&#40;https://www.x-aviation.com/catalog/product_info.php/douglas-p-84&#41;.)
 

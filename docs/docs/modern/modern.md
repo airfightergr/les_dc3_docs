@@ -10,4 +10,4 @@ This variation provides to the pilot a fully IFR capable aircraft, to perform al
 
 The rest of the systems remain similar to the *Classic* variant, though they have tuned accordingly to facilitate the new panel.
 
-Links: Radio manuals https://www.bendixking.com/content/dam/bendixking/en/documents/downloads/006-18110-0000_5-Pilot-s-Guide.pdf
+[//]: # (Links: [Radio manuals]&#40;https://www.bendixking.com/content/dam/bendixking/en/documents/downloads/006-18110-0000_5-Pilot-s-Guide.pdf&#41;)
