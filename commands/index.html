@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/support/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/commands/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Support - Leading Edge Simulations DC-3 v2</title>
+    <title>Controls Setup - Leading Edge Simulations DC-3 v2</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Support";
-        var mkdocs_page_input_path = "support.md";
-        var mkdocs_page_url = "/les_dc3_docs/support/";
+        var mkdocs_page_name = "Controls Setup";
+        var mkdocs_page_input_path = "commands.md";
+        var mkdocs_page_url = "/les_dc3_docs/commands/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -46,11 +46,13 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../liveries/">Liveries Concept</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../commands/">Controls Setup</a>
-                  </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Support</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Controls Setup</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#main-controls">Main Controls</a>
+    </li>
     </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../support/">Support</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Select Aircraft</span></p>
@@ -115,7 +117,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
           <li>Welcome &raquo;</li>
-      <li>Support</li>
+      <li>Controls Setup</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -124,34 +126,59 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="support">Support</h1>
-<p>Before you request support, please read the current document. </p>
-<p>If you still have support questions, please do the below:</p>
-<ol>
-<li>Visit <a href="https://forums.x-pilot.com/forums/forum/105-support/">LES Support</a> forums.</li>
-<li>Check the forums if the issue already exists, and may be already answered.</li>
-<li>If not, start a new topic, and:<ul>
-<li>Describe in detail the issue you have, so we be able to reproduce.</li>
-<li>If it is possible, attach and image or video indicating the issue. Forums have usually restricted space, you may upload to a service and post the link.</li>
-<li>Always attach the <strong>Log.txt</strong> file, located in X-Plane's root folder, and the <strong>DC3.log</strong> file, located in <strong><em>Douglas DC-3 v2/resources/data/</em></strong> folder.</li>
-</ul>
-</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">NOTE</p>
-<p>Make sure that you attach the Log.txt and DC3.log files, just after closing X-Plane. If you start X-Plane before doing so, the files will be overwritten, and the info we need will be lost!</p>
-</div>
-<p>Also, you can contact <a href="https://www.x-aviation.com/catalog/contact_us.php">X-Aviation Support</a>.</p>
-<div class="admonition note">
-<p class="admonition-title">NOTE</p>
-<p>We will try to our best to solve you issue as soon as possible. In some cases, though, might take a few days, depending on the issue and our workload, to be able to respond. Please be patient!</p>
-</div>
+                <h1 id="controls-setup">Controls Setup</h1>
+<p>Our DC-3 has a lot of customized systems, and we <strong>highly recommend</strong> to create a unique controls profile.
+We have implement some of the standard (default) commands, where it was possible, but also added custom commands, to allow proper controls of the aircraft.</p>
+<p>The list below contains those commands that are essential. This document will be updated in the future, with any changes or additions.</p>
+<h2 id="main-controls">Main Controls</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>CMD TYPE</th>
+<th>COMMAND</th>
+<th>DESCRIPTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Landing Gear Toggle</td>
+<td>X-Plane</td>
+<td>sim/flight_controls/landing_gear_toggle</td>
+<td>Toggles Up/Down the Landing Gear</td>
+</tr>
+<tr>
+<td>Hold for Flaps Up</td>
+<td>X-Plane</td>
+<td>sim/flight_controls/flaps_up</td>
+<td>94 ft 7 in</td>
+</tr>
+<tr>
+<td>Hold for Flaps Down</td>
+<td>X-Plane</td>
+<td>sim/flight_controls/flaps_down</td>
+<td>23 ft 6 in</td>
+</tr>
+<tr>
+<td>Tailplane Span</td>
+<td>CUSTOM</td>
+<td>8.13 m</td>
+<td>26 ft 8 in</td>
+</tr>
+<tr>
+<td>Main Wing Area</td>
+<td></td>
+<td>91.7 sq. m</td>
+<td>987 sq. ft</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../commands/" class="btn btn-neutral float-left" title="Controls Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../docs/classic/classic/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../liveries/" class="btn btn-neutral float-left" title="Liveries Concept"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../support/" class="btn btn-neutral float-right" title="Support">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -174,10 +201,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../commands/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../liveries/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../docs/classic/classic/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../support/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
