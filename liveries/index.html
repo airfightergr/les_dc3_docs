@@ -145,7 +145,17 @@
 To do that, we handle as every livery as a unique airframe. </p>
 <h2 id="liveries-as-airframes">Liveries as Airframes</h2>
 <p>You must think that by selecting a livery to fly, you are also selecting a different airframe. For example, switching from <strong>Buffalo Airways</strong> to <strong>Duggy</strong>, is like climbing on a different aircraft, and not just changing the paint!
-From now on, in this page the word <strong>Airframe</strong> will be used instead of livery. Here are the properties:</p>
+From now on, in this page the word <strong>Airframe</strong> will be used instead of livery. </p>
+<div class="admonition note">
+<p class="admonition-title">NOTE</p>
+<p>Currently, changing livery, does not reset the flight, as it should do, since you switch airframes, due to not be able to achieve stable transition without crashes. But we are looking to implement it in a future update. </p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">CAUTION</p>
+<p>Switching liveries while flying, might have disastrous consequences! The new airframe options might command to load the aircraft cold and dark, which won't be nice while you are flying!<br>
+<strong>Always switch liveries on the ground!</strong></p>
+</div>
+<p>Here are the properties:</p>
 <ol>
 <li>We have implemented a maintenance system that is tracked, per aircraft, per airframe. Each time you fly, the hours are logged to the specific airframe. So the airframe hours and maintenance intervals, are counted per airframe.
 For example, if you fly frequently with one airframe, and then select another one, that you have months to fly with, you'll find the batteries discharged.</li>
