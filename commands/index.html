@@ -48,7 +48,17 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Controls Setup</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#main-controls">Main Controls</a>
+    <li class="toctree-l2"><a class="reference internal" href="#landing-gear">LANDING GEAR</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#flaps">FLAPS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parking-brakes">PARKING BRAKES</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tail-wheel-lock">TAIL WHEEL LOCK</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pitch-trim">PITCH TRIM</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trims">TRIMS</a>
     </li>
     </ul>
                   </li>
@@ -128,75 +138,141 @@
               
                 <h1 id="controls-setup">Controls Setup</h1>
 <p>Our DC-3 has a lot of customized systems, and we <strong>highly recommend</strong> to create a unique controls profile.
-We have implement some of the standard (default) commands, where it was possible, but also added custom commands, to allow proper controls of the aircraft.</p>
+We have implement some of the standard (default) commands, where it was possible, but also added custom commands, to allow proper control of the aircraft.</p>
 <p>The list below contains those commands that are essential. This document will be updated in the future, with any changes or additions.</p>
-<h2 id="main-controls">Main Controls</h2>
+<p><strong>DESCRIPTION:</strong> What you should search for in X-Plane settings.<br>
+<strong>COMMAND:</strong> The actual command.</p>
+<hr />
+<h4 id="landing-gear">LANDING GEAR</h4>
+<p>Lowers or raises the landing gear. Levers in the cockpit as set at their respective positions.</p>
 <table>
 <thead>
 <tr>
 <th>DESCRIPTION</th>
 <th>COMMAND</th>
-<th>REMARKS</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Landing gear toggle</td>
 <td>sim/flight_controls/landing_gear_toggle</td>
-<td></td>
 </tr>
+</tbody>
+</table>
+<hr />
+<h4 id="flaps">FLAPS</h4>
+<p>Hold continuously to achieve the required flaps' position.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Flaps up a notch</td>
 <td>sim/flight_controls/flaps_up</td>
-<td>Hold as required</td>
 </tr>
 <tr>
 <td>Flaps down a notch</td>
 <td>sim/flight_controls/flaps_down</td>
-<td>Hold as required</td>
 </tr>
+</tbody>
+</table>
+<hr />
+<h4 id="parking-brakes">PARKING BRAKES</h4>
+<p>Toggles parking brakes.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Toggle brakes max effort</td>
 <td>sim/flight_controls/brakes_toggle_max</td>
-<td>Parking Brake</td>
 </tr>
+</tbody>
+</table>
+<hr />
+<h4 id="tail-wheel-lock">TAIL WHEEL LOCK</h4>
+<p>Unlocks or locks the tail wheel. Keep in mind, if you lock the tail wheel, and it is not aligned with aircraft's longitudinal axis, will not be lock until be aligned.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tail Wheel Lock</td>
+<td>les/dc3/controls/tailLock</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="pitch-trim">PITCH TRIM</h4>
+<p>Pitch trim is mechanical, so you must select the proper command.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Pitch trim up - Mechanical, not servo</td>
 <td>sim/flight_controls/pitch_trim_up_mech</td>
-<td></td>
 </tr>
 <tr>
 <td>Pitch trim down - Mechanical, not servo</td>
 <td>sim/flight_controls/pitch_trim_down_mech</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
+<hr />
+<h4 id="trims">TRIMS</h4>
+<p>Pitch trim is mechanical, so you must select the proper command.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pitch trim up - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_up_mech</td>
+</tr>
+<tr>
+<td>Pitch trim down - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_down_mech</td>
+</tr>
+<tr>
+<td>Roll trim left</td>
+<td>sim/flight_controls/aileron_trim_left</td>
+</tr>
+<tr>
+<td>Roll trim right</td>
+<td>sim/flight_controls/aileron_trim_right</td>
+</tr>
+<tr>
+<td>Yaw trim left</td>
+<td>sim/flight_controls/rudder_trim_left</td>
+</tr>
+<tr>
+<td>Yaw trim right</td>
+<td>sim/flight_controls/rudder_trim_right</td>
+</tr>
+</tbody>
+</table>
+<hr />
               
             </div>
           </div><footer>
