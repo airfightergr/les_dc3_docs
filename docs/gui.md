@@ -1,12 +1,10 @@
 # User Interface
 
 The user interface is the means for the user to interact with various faces of the flight, and as well as set various options, aircraft loading, etc.
-
 It is divided in 5 "tabs" or pages.
 
 ## AIRFRAME
 Gives the user info about the aircraft, the available liveries, and Credits.
-
 Also, there is a button **READ THE MANUAL**, to launch this site in your browser.
 
 ![Airframe](./all_acfs/gui_airframe.jpg)

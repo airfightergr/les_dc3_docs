@@ -6,10 +6,8 @@ Welcome to Leading Edge Simulations Douglas DC-3, version 2.0. This version of t
 
 ## Aircraft Types
 
-This DC-3 product package includes 2 different variations. 
-
-The first, ["Classic"](docs/classic/classic.md), is based on the early production DC-3 layouts, from late 1930's to mid 1940's era.
-
+This DC-3 product package includes 2 different variations.<br> 
+The first, ["Classic"](docs/classic/classic.md), is based on the early production DC-3 layouts, from late 1930's to mid 1940's era.<br>
 The second, ["Modern"](docs/modern/modern.md), is based on aircraft that have been retrofitted with more modern instruments and avionics.
 
 ## Features List

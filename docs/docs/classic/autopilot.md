@@ -72,11 +72,9 @@ This moves the diaphragm **C** to the one side. Since it is connected to the pis
 to the one side of the piston **K**, moving the connected ailerons. This will continue until the **A'** port is unblocked, and the vacuum is balanced again between **A** and **A'**.
 
 ### Operation
-The operation is the same as with the **Simulated Sperry A-3A Automatic Pilot**, as described above. There are though some differences. Because all the actions are purely mechanical, they are not filtered through any logic.
-In case of engaging the autopilot in an unbalance position (big difference between follow-up index and respective bank or roll index), a violent movement might occur. To avoid this, make sure that all indexes are aligned.
+The operation is the same as with the Simulated Sperry A-3A Automatic Pilot, as described above. There are though some differences. Because all the actions are purely mechanical, they are not filtered through any logic. In case of engaging the autopilot in an unbalance position (big difference between follow-up index and respective bank or roll index), a violent movement might occur. To avoid this, make sure that all indexes are aligned. In heading mode, as described above, when the autopilot engagement occurs with the rudder follow-up card with the DG card aligned, the aircraft will remain at the current heading. The AIL knob is disabled, and the RUD knob is used to correct heading by few degrees, by moving slightly the rudder.
 
-Also, the **heading mode** is not available yet. In this mode, as described above, when the autopilot engagement occur with the rudder follow-up card with the DG card aligned, the aircraft will remain at the current heading.
-The **AIL** knob is disabled, and the **RUD** knob is used to correct heading by few degrees, *by moving slightly the rudder*.
+Currently, the **heading mode** is not available. Aircraft heading and attitude control is accomplished using the **AIL** and **ELE** knobs. The **RUD** knob is non-functional.
 
 !!! note "DEVELOPER'S NOTE"
     As you might have noticed, the autopilot is capable to provide some attitude hold capabilities, but nothing much more. Speaking with a few pilots who have flown aircraft with this autopilot, the common ground was that barely ever used,

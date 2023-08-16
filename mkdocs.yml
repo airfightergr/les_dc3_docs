@@ -31,7 +31,14 @@ nav:
         - Engines Start: docs/common/engines_start.md
 
 
-theme: readthedocs
+theme:
+    name: readthedocs
+
+    #mkdocs, readthedocs, bootstrap,
+  #            cerulean, cosmo, cyborg, darkly, flatly, journal, litera, lumen,
+  #            lux, materia, minty, pulse, sandstone, simplex, slate, solar,
+  #            spacelab, superhero, united, yeti
+
 markdown_extensions:
   - admonition
   - tables

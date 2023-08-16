@@ -26,7 +26,7 @@
 
 |                                |                 |                  |
 |--------------------------------|-----------------|------------------|
-| Maximum Altitude               | @ 9T: 28,200 ft | @ MGW: 22,600 ft |
+| Maximum Altitude               | * 9T: 28,200 ft | * MGW: 22,600 ft |
 | Maximum Airspeed Glide or Dive | 257 MPH         | 223 Knots        |
 | Maximum Airspeed               | 205 MPH         | 178 Knots        |
 | Landing Gear Extensions        | No Restrictions |                  |

@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/characteristics/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://airfightergr.github.io/les_dc3_docs/commands/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Aircraft Characteristics - Leading Edge Simulations DC-3 v2</title>
+    <title>Controls Setup - Leading Edge Simulations DC-3 v2</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Aircraft Characteristics";
-        var mkdocs_page_input_path = "characteristics.md";
-        var mkdocs_page_url = "/les_dc3_docs/characteristics/";
+        var mkdocs_page_name = "Controls Setup";
+        var mkdocs_page_input_path = "commands.md";
+        var mkdocs_page_url = "/les_dc3_docs/commands/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -40,21 +40,27 @@
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="..">Overview</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Aircraft Characteristics</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#dimensions">Dimensions</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#weights">Weights</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#performance-data">Performance Data</a>
-    </li>
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../characteristics/">Aircraft Characteristics</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../gui/">User Interface</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../liveries/">Liveries Concept</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../commands/">Controls Setup</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Controls Setup</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#landing-gear">LANDING GEAR</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#flaps">FLAPS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parking-brakes">PARKING BRAKES</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tail-wheel-lock">TAIL WHEEL LOCK</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pitch-trim">PITCH TRIM</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#trims">TRIMS</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../support/">Support</a>
                   </li>
@@ -121,7 +127,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
           <li>Welcome &raquo;</li>
-      <li>Aircraft Characteristics</li>
+      <li>Controls Setup</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -130,165 +136,149 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="aircraft-characteristics">Aircraft Characteristics</h1>
-<h2 id="dimensions">Dimensions</h2>
+                <h1 id="controls-setup">Controls Setup</h1>
+<p>Our DC-3 has a lot of customized systems, and we <strong>highly recommend</strong> to create a unique controls profile.
+We have implement some of the standard (default) commands, where it was possible, but also added custom commands, to allow proper control of the aircraft.</p>
+<p>The list below contains those commands that are essential. This document will be updated in the future, with any changes or additions.</p>
+<p><strong>DESCRIPTION:</strong> What you should search for in X-Plane settings.<br>
+<strong>COMMAND:</strong> The actual command.</p>
+<hr />
+<h4 id="landing-gear">LANDING GEAR</h4>
+<p>Lowers or raises the landing gear. Levers in the cockpit as set at their respective positions.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th>METRIC</th>
-<th>IMPERIAL</th>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Length</td>
-<td>19.65 m</td>
-<td>64 ft 5.5 in</td>
-</tr>
-<tr>
-<td>Wingspan</td>
-<td>28.83 m</td>
-<td>94 ft 7 in</td>
-</tr>
-<tr>
-<td>Height</td>
-<td>7.16 m</td>
-<td>23 ft 6 in</td>
-</tr>
-<tr>
-<td>Tailplane Span</td>
-<td>8.13 m</td>
-<td>26 ft 8 in</td>
-</tr>
-<tr>
-<td>Main Wing Area</td>
-<td>91.7 sq. m</td>
-<td>987 sq. ft</td>
+<td>Landing gear toggle</td>
+<td>sim/flight_controls/landing_gear_toggle</td>
 </tr>
 </tbody>
 </table>
-<h2 id="weights">Weights</h2>
+<hr />
+<h4 id="flaps">FLAPS</h4>
+<p>Hold continuously to achieve the required flaps' position.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th>METRIC</th>
-<th>IMPERIAL</th>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Empty Weight</td>
-<td>7,650 kg</td>
-<td>18,865 lbs</td>
+<td>Flaps up a notch</td>
+<td>sim/flight_controls/flaps_up</td>
 </tr>
 <tr>
-<td>Maximum Gross Weight</td>
-<td>11,430 kg</td>
-<td>25,198 lbs</td>
-</tr>
-<tr>
-<td>Maximum Fuel Weight</td>
-<td>2,240 kg</td>
-<td>4,938 lbs</td>
-</tr>
-<tr>
-<td>Maximum Zero Fuel Weight</td>
-<td>9,190 kg</td>
-<td>20,260 lbs</td>
-</tr>
-<tr>
-<td>Center of Gravity</td>
-<td>8.02 m</td>
-<td>26 ft 3.7 in</td>
+<td>Flaps down a notch</td>
+<td>sim/flight_controls/flaps_down</td>
 </tr>
 </tbody>
 </table>
-<h2 id="performance-data">Performance Data</h2>
+<hr />
+<h4 id="parking-brakes">PARKING BRAKES</h4>
+<p>Toggles parking brakes.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Maximum Altitude</td>
-<td>* 9T: 28,200 ft</td>
-<td>* MGW: 22,600 ft</td>
-</tr>
-<tr>
-<td>Maximum Airspeed Glide or Dive</td>
-<td>257 MPH</td>
-<td>223 Knots</td>
-</tr>
-<tr>
-<td>Maximum Airspeed</td>
-<td>205 MPH</td>
-<td>178 Knots</td>
-</tr>
-<tr>
-<td>Landing Gear Extensions</td>
-<td>No Restrictions</td>
-<td></td>
-</tr>
-<tr>
-<td>Maximum Airspeed Full Flaps</td>
-<td>112 MPH</td>
-<td>97 Knots</td>
-</tr>
-<tr>
-<td>Stall Speed 0 Flaps @ 9T</td>
-<td>73 MPH</td>
-<td>63 Knots</td>
-</tr>
-<tr>
-<td>Stall Speed 0 Flaps @ MGW</td>
-<td>82 MPH</td>
-<td>71 Knots</td>
-</tr>
-<tr>
-<td>Stall Speed Full Flaps @ 9T</td>
-<td>63 MPH</td>
-<td>55 Knots</td>
-</tr>
-<tr>
-<td>Stall Speed Full Flaps @ MGW</td>
-<td>71 MPH</td>
-<td>62 Knots</td>
-</tr>
-<tr>
-<td>Take off Distance @ MGW SL</td>
-<td>550 meters</td>
-<td>1800 ft</td>
-</tr>
-<tr>
-<td>Take off Distance @ MGW SL</td>
-<td>550 meters</td>
-<td>1800 ft</td>
-</tr>
-<tr>
-<td>Take off Distance @ MGW SL</td>
-<td>550 meters</td>
-<td>1800 ft</td>
-</tr>
-<tr>
-<td>Landing Distance @ MGW SL</td>
-<td>590 meters</td>
-<td>1930 ft</td>
+<td>Toggle brakes max effort</td>
+<td>sim/flight_controls/brakes_toggle_max</td>
 </tr>
 </tbody>
 </table>
-<p>*9T = 9,000 kg or 20,000 lbs </p>
+<hr />
+<h4 id="tail-wheel-lock">TAIL WHEEL LOCK</h4>
+<p>Unlocks or locks the tail wheel. Keep in mind, if you lock the tail wheel, and it is not aligned with aircraft's longitudinal axis, will not be lock until be aligned.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tail Wheel Lock</td>
+<td>les/dc3/controls/tailLock</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="pitch-trim">PITCH TRIM</h4>
+<p>Pitch trim is mechanical, so you must select the proper command.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pitch trim up - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_up_mech</td>
+</tr>
+<tr>
+<td>Pitch trim down - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_down_mech</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="trims">TRIMS</h4>
+<p>Pitch trim is mechanical, so you must select the proper command.</p>
+<table>
+<thead>
+<tr>
+<th>DESCRIPTION</th>
+<th>COMMAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pitch trim up - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_up_mech</td>
+</tr>
+<tr>
+<td>Pitch trim down - Mechanical, not servo</td>
+<td>sim/flight_controls/pitch_trim_down_mech</td>
+</tr>
+<tr>
+<td>Roll trim left</td>
+<td>sim/flight_controls/aileron_trim_left</td>
+</tr>
+<tr>
+<td>Roll trim right</td>
+<td>sim/flight_controls/aileron_trim_right</td>
+</tr>
+<tr>
+<td>Yaw trim left</td>
+<td>sim/flight_controls/rudder_trim_left</td>
+</tr>
+<tr>
+<td>Yaw trim right</td>
+<td>sim/flight_controls/rudder_trim_right</td>
+</tr>
+</tbody>
+</table>
+<hr />
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../gui/" class="btn btn-neutral float-right" title="User Interface">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../liveries/" class="btn btn-neutral float-left" title="Liveries Concept"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../support/" class="btn btn-neutral float-right" title="Support">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -311,10 +301,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../liveries/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../gui/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../support/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

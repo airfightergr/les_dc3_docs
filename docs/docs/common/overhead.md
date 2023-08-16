@@ -46,15 +46,16 @@ Includes the Magnetos Control Panel.
 1. **Magnetos Control Panel**: Has 3 controls.
       - MAIN SWITCH: Turn this switch off, grounds both magnetos, disabling them. Must be on for the magnetos to operate.
       - L/R Magnetos Controls: Controls the magnetos for each engine.
-
 2. **STARTER SAFETY**: When is OFF, disables starters. Turn it ON when you want to start the engines.
 3. **L ENG START**: Engages the left engine starter. 
 4. **R ENG START**: Engages the right engine starter.
 5. **L ENG PRIMER**: Turn on to prime the left engine. 
 6. **R ENG PRIMER**: Turn on to prime the right engine. 
 
+
     !!! note "NOTE"
         You can start the engines, only with the primers on, and fuel boost pumps off.
+
 
 7. **L FUEL BOOST**: Controls the left fuel boost.
 8. **R FUEL BOOST**: Controls the right fuel boost.
